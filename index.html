@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Aprenda a investir</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ações da B3</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" id="input-pesquisa" placeholder="Digite o código da ação">
+            <button onclick="pesquisar()">Pesquisar</button>
+            <div id="autocomplete-list" class="autocomplete-items"></div>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <div id="resultados"></div> 
+        <canvas class="resultados-grafico" id="graficoLinha" width="600" height="400"></canvas>
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Ações da B3. Todos os direitos reservados</p>
+        <p>Entre em contato pelo email: Acoes-da-B3@teste.com.br</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="precos_acoes.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
