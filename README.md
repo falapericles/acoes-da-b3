@@ -1,34 +1,35 @@
-# Projeto Ações da B3
+# 📈 Projeto Ações da B3
 
-Um aplicativo web para pesquisa e visualização de ações da B3, com gráficos de preços históricos das ações.
+Um aplicativo web interativo para pesquisa e visualização das ações da B3, com gráficos de preços históricos para facilitar a análise e acompanhamento das variações de mercado.
 
-## Descrição
+## 📋 Descrição
 
-Este projeto permite que os usuários pesquisem ações da B3 e visualizem gráficos de preços históricos para as ações pesquisadas. A interface inclui:
+O projeto permite que usuários pesquisem e explorem informações de ações da B3, exibindo um gráfico com a variação de preços históricos de cada ação. A interface oferece uma experiência dinâmica com:
 
-- **Uma caixa de pesquisa com sugestões automáticas.**
-- **Um gráfico de linha que exibe a variação de preços das ações ao longo do tempo.**
+- 🔎 **Caixa de pesquisa com sugestões automáticas durante a digitação.**
+- 📊 **Gráfico de linha** que ilustra a variação dos preços ao longo do tempo.
+- 📝 **Resultados detalhados** com links para mais informações sobre as ações pesquisadas.
 
-## Funcionalidades
+## ✨ Funcionalidades
 
-- Pesquisa de ações por título ou código.
-- Sugestões automáticas durante a digitação.
-- Exibição de resultados da pesquisa com links para mais informações.
-- Gráfico de linha que mostra os preços históricos das ações.
+- **🔍 Pesquisa de ações**: Digite o nome ou código para obter resultados relevantes.
+- **💡 Sugestões automáticas**: As sugestões aparecem conforme você digita na caixa de pesquisa.
+- **📈 Visualização de gráficos**: Acompanhe os preços históricos das ações selecionadas.
+- **🔗 Navegação intuitiva**: Acesse detalhes adicionais das ações com um clique.
 
-## Limitações
+## 🚫 Limitações
 
-- A base de dados está abastecida com as 30 ações selecionadas do Ibovespa.
-- O gráfico apresenta somente dados referentes ao mês de agosto, com os valores de fechamento diário.
+- A base de dados inclui apenas as **30 ações mais representativas do Ibovespa**.
+- Os gráficos exibem dados **somente do mês de agosto**, com valores de fechamento diário.
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-- **HTML/CSS**: Estrutura e estilização da página.
-- **JavaScript**: Lógica de pesquisa e geração de gráficos.
-- **Chart.js**: Biblioteca para criação de gráficos.
-- **Google Fonts**: Fonte utilizada para estilização do texto.
+- **HTML/CSS**: Estrutura e estilização da aplicação.
+- **JavaScript**: Lógica de interação e manipulação dos gráficos.
+- **Chart.js**: Biblioteca JavaScript para criação de gráficos interativos.
+- **Google Fonts**: Fonte personalizada para melhorar a aparência do texto.
 
-## Instalação
+## 💻 Instalação
 
 1. **Clone o repositório**:
     ```bash
@@ -40,33 +41,37 @@ Este projeto permite que os usuários pesquisem ações da B3 e visualizem gráf
     cd acoes-da-b3
     ```
 
-3. **Certifique-se de que você tem um servidor local para servir os arquivos estáticos**. Você pode usar um servidor local simples como `http-server` (para Node.js) ou qualquer outro servidor de sua preferência.
+3. **Configure um servidor local** para servir os arquivos estáticos. Use `http-server` (para Node.js) ou outra ferramenta de sua preferência.
 
-## Uso
+## 🚀 Uso
 
 1. Abra o arquivo `index.html` no seu navegador:
-    - Dê um clique duplo no arquivo `index.html` ou abra-o a partir do seu servidor local.
+    - Clique duas vezes no arquivo `index.html` ou utilize o servidor local configurado.
 
-2. Digite o código ou título da ação na caixa de pesquisa e pressione "Pesquisar":
-    - Veja os resultados da pesquisa e o gráfico atualizado com os preços históricos da ação.
+2. Na caixa de pesquisa, digite o código ou título da ação que deseja buscar e pressione "Pesquisar".
+    - O gráfico será atualizado para mostrar os preços históricos da ação escolhida.
 
-## Estrutura de Arquivos
+## 📂 Estrutura de Arquivos
 
-- **index.html**: Página principal do aplicativo.
-- **style.css**: Estilos para o layout e design da página.
-- **app.js**: Lógica JavaScript para pesquisa, sugestões e gráficos.
-- **dados.js**: Dados estáticos das ações (deve ser preenchido com os dados reais).
-- **precos_acoes.js**: Dados estáticos dos preços das ações (deve ser preenchido com os dados reais).
+- **`index.html`**: Página principal da aplicação.
+- **`style.css`**: Estilos e layout.
+- **`app.js`**: Lógica de pesquisa e geração de gráficos.
+- **`dados.js`**: Dados estáticos das ações (atualize com os dados reais).
+- **`precos_acoes.js`**: Dados estáticos dos preços das ações (atualize com os dados reais).
 
-## Contribuições
+## 🤝 Contribuições
 
-Se você deseja contribuir para o projeto, sinta-se à vontade para enviar um pull request com suas melhorias ou correções. Por favor, siga as diretrizes de contribuição abaixo:
+Sinta-se à vontade para contribuir com melhorias ou correções! Siga as etapas abaixo:
 
 1. Faça um fork do repositório.
-2. Crie uma branch para sua nova feature ou correção.
-3. Faça suas alterações e teste-as.
+2. Crie uma nova branch para sua feature ou correção (`git checkout -b minha-feature`).
+3. Teste suas alterações e adicione commits (`git commit -m 'Adiciona nova funcionalidade'`).
 4. Envie um pull request para a branch principal.
 
-## Licença
+## 📜 Licença
 
-Este projeto é licenciado sob a Licença MIT.
+Este projeto é licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
+
+---
+
+Com essa interface amigável e visualização simplificada de ações, o **Projeto Ações da B3** é uma ferramenta para acompanhar o mercado financeiro de forma prática e eficiente!
